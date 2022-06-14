@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JeanC">
+    <meta name="description" content="Border_Radius">
+    <meta name="keywords" content="html5, aprendizado">
+    <title>Document</title>
+    <style>
+        #radius{
+            background: black;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            border-radius: 25px; /*arrendondar as bordas 100px=50% deixa um circulo*/
+        }
+    
+        #radius2{
+            background: black;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            /*cima direita baixo esquerda, antes da barra é o valor na horizintal e depois da barra na vertical bom pra fazer elípses*/
+            border-radius: 25px 50px 100px 0 / 20px 50px 100px 0;
+        }
+
+        #radius3{
+            background: black;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            border-radius: 50px / 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS efeitos</h1>
+    <div id="radius"></div>
+    <div id="radius2"></div>
+    <div id="radius3"></div>
+</body>
+</html>

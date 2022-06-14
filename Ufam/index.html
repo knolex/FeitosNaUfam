@@ -6,9 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .t1{
+        width: 700px;
+        color: green;
+    }
+
+   
+</style>
 <body>
     <a href="google.com"></a>
-    <h1>Site</h1>
-   
+    <h1 class="t1">Site Ufam</h1>
+    <form action="http://google.com/search" method="get" target="_blank">
+        Faça um busca
+        <input type="text" name="q" placeholder="Digite uma palavra para Busca">
+        <input type="submit" value="ok">
+        <fieldset>
+            <legend>Interesses</legend>
+
+            <label>
+                <input type="checkbox" name="Agronomia" value="Agro"> Agronomia
+            </label>
+            <label>
+                <input type="checkbox" name="Programação" value="Programação"> Programação
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+    </form>
+     
 </body>
 </html>
